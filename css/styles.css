@@ -1,0 +1,193 @@
+/* Top Container */
+h1 {
+    text-align: center;
+    /* margin: 0 auto 0 auto;  instead use line height */
+    font-family: 'Sacramento',cursive, sans-serif; 
+    color: #00b7ff;
+    font-size:5.625rem; 
+    position: relative;
+    line-height: 2rem;
+    
+}
+.heading-para {
+    text-align: center;
+    font-size: 1.5625rem;
+    font-family: 'Merriweather',cursive, sans-serif; 
+    color: #00b7ff;
+}
+
+body {
+    margin:auto;
+    text-align: center;
+}
+h3 {
+    color: #00b7ff;
+    font-family: 'Patua One';
+    font-size: 1.5625rem;
+}
+h2 {
+    font-size: 2.1875rem;
+    color: #ff7716;
+    font-family: 'farro';
+    padding:1.875rem;
+    background-color: #b7f9ab;
+   
+}
+p {
+    font-family:'Kdam thmor Pro',cursive, sans-serif; 
+}
+.top-container {
+    width: 94.96875rem;
+    height: 40.625rem;
+    background-color:#CDF0EA;
+    margin-bottom: 3.125rem;
+}
+.cloud1 {
+    position: relative;
+    display: inline-block;
+    top: 18.75rem;
+    left: 9.375rem;
+}
+.cloud2 {
+    position: absolute;
+    display: inline-block;
+    top: 25rem;
+    right: 12.5rem; 
+}
+
+.mountain2 {
+    position: absolute;
+    display: inline-block; 
+    left: 31.25rem;
+    height: 18.75rem;
+    top: 18.75rem;
+    width: 37.5rem;
+}
+.boy {
+    width: 6.25rem;
+    height: 6.25rem;
+    position: relative;
+    display:inline-block;
+    left: 25rem;
+    top: 1.25rem;
+    border-radius: 12.5rem;
+    background-color: rgb(46, 118, 182);
+}
+
+/* Middle Container */
+.profile {
+    margin: 0.625rem auto;
+}
+.hi {
+    padding: 0;
+    background-color: white;
+}
+.mboy {
+    border-radius: 6.25rem;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 0.3125rem;
+    border-color: rgb(218, 218, 218);
+    width: 0.05rem;
+    size:"0.02rem";   
+}
+
+
+.middle-container {
+    
+    width: 50rem;
+    margin: auto;
+    
+}
+.skills {
+    line-height: 2;
+}
+.skill-row {
+    margin-bottom: 1.875rem;
+    line-height: 2;
+}
+.gif1 {
+    height: 12.5rem;
+    width: 12.5rem;
+    border-radius: 18.75rem;
+    float: left; 
+    width: 25%;
+    margin-right: 30px;
+}
+.gif2 {
+    height: 12.5rem;
+    width: 12.5rem;
+    border-radius: 12.5rem;
+    float: right;
+    width: 25%;
+    margin-left: 30px;
+
+}
+.Design-and-Development {
+    text-align: left;
+    margin: auto 0 auto 0;
+}
+.DD-desc {
+    width: 70%;
+    text-align: left;
+}
+.Understanding-and-Listening {
+    text-align: right;
+    clear: left;  
+}
+.UL-desc {
+    width:70%;
+    text-align: right;
+    margin:auto;
+}
+.btn {
+    padding: 0.625rem;
+    background-color: darkturquoise;
+}
+.btn:hover {
+    background-color: rgb(0, 255, 213);   
+
+}
+.mail:hover{
+    background-color: rgb(0, 255, 213);   
+}
+.mail {
+    padding: 0.625rem;
+    background-color: darkturquoise;
+    height: 1.09375rem;
+    width: 1.25rem;
+    position: relative;
+    top: 0.8125rem;
+    left:0.625rem;
+}
+.contact-me {
+    margin-bottom: 1.875rem;
+}
+
+/* Bottom-container */
+.bottom-container {
+    background-color: rgb(17, 185, 93);
+    padding:30px 0 20px 0;
+    /* width: 100rem; */
+
+}
+.footer-link {
+  
+    margin: 10px 30px;
+    font-family: "Kdam Thmor Pro",sans-serif;
+    text-decoration: none;
+    color: #e0a7a7;;
+}
+.footer-link:hover {
+    color: hsl(180, 100%, 100%);
+}
+
+.copyright {
+    position: relative;
+    top:1.5rem;
+    color: aliceblue;
+    size: 10rem;
+}
