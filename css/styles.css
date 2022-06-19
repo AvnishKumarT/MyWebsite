@@ -43,16 +43,18 @@ p {
     margin-bottom: 3.125rem;
 }
 .cloud1 {
-    position: relative;
+    position: absolute;
     display: inline-block;
     top: 18.75rem;
     left: 9.375rem;
+
 }
 .cloud2 {
     position: absolute;
     display: inline-block;
     top: 25rem;
     right: 12.5rem; 
+
 }
 
 .mountain2 {
@@ -68,10 +70,11 @@ p {
     height: 6.25rem;
     position: relative;
     display:inline-block;
-    left: 25rem;
+    right: 20rem;
     top: 1.25rem;
     border-radius: 12.5rem;
     background-color: rgb(46, 118, 182);
+
 }
 
 /* Middle Container */
@@ -97,7 +100,6 @@ hr {
 
 
 .middle-container {
-    
     width: 50rem;
     margin: auto;
     
